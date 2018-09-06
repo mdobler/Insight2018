@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2018InsightSample.WebApp", "2018InsightSample.WebApp\2018InsightSample.WebApp.csproj", "{5420583E-85C1-462D-97DE-D5E365555150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2B7CD3CE-9EF9-4DB4-BA5F-26651BB7CCBF}"
+	ProjectSection(SolutionItems) = preProject
+		DeltekStoredProc_GetInvoiceInfo.sql = DeltekStoredProc_GetInvoiceInfo.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5420583E-85C1-462D-97DE-D5E365555150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5420583E-85C1-462D-97DE-D5E365555150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5420583E-85C1-462D-97DE-D5E365555150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5420583E-85C1-462D-97DE-D5E365555150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83B42A08-82B7-4959-8316-2F6E3A6FE09C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.deltek.com/tfs/deltek
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 2018InsightSample.WebApp\\2018InsightSample.WebApp.csproj
+		SccProjectName1 = 2018InsightSample.WebApp
+		SccLocalPath1 = 2018InsightSample.WebApp
+	EndGlobalSection
+EndGlobal
